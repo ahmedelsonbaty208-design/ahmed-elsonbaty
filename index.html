@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>كتابة محتوى احترافى</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Tajawal', sans-serif;
+      }
+      .scrollbar-thin {
+        scrollbar-width: thin;
+        scrollbar-color: #4a5568 #2d3748;
+      }
+      .scrollbar-thin::-webkit-scrollbar {
+        width: 8px;
+      }
+      .scrollbar-thin::-webkit-scrollbar-track {
+        background: #2d3748;
+      }
+      .scrollbar-thin::-webkit-scrollbar-thumb {
+        background-color: #4a5568;
+        border-radius: 4px;
+        border: 2px solid #2d3748;
+        transition: background-color 0.2s ease-in-out;
+      }
+      .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+        background-color: #64748b;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
